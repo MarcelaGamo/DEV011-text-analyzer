@@ -1,22 +1,16 @@
 
   body {
     
-  background-image: url("https://img.freepik.com/vector-gratis/ilustracion-poesia-acuarela_52683-82191.jpg?w=1380&t=st=1692737719~exp=1692738319~hmac=d4a8ece892907834bc581a990b21f1ce1a593e1bc2ad1aaf4a89c624b77bc11c");
-  background-size: cover;
-  background-size: 50rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-color: rgba(232, 15, 232, 0.2);
     font-family: monospace;
     place-items: center;
     display: grid;
     
   }
-  
+
 
   header {
-    background:#f3daf5;
+    background:#efe2f5;
+    border: #6e6b6b 2px solid;
     height: 50px;
     width: 400px;
     margin: 50px;
@@ -26,7 +20,7 @@
     font-weight: bolder; 
     font-family:monospace;
     text-shadow: 3px 2px 5px O#454545;
-    border-bottom: #333333;
+    
     }
   
   .illustration {
@@ -37,7 +31,8 @@
    
   }
 
-  .box {
+  .box [name="user-input"]{
+
     border: 2px solid #38302e;
     padding: 5px;
     margin: px;
@@ -55,7 +50,8 @@
     display: flex;
     justify-content: center;
     padding: 7px;
-    background-color: #f3daf5;
+    background-color: #efe2f5;
+    border: #6e6b6b 2px solid;
     align-items: center;
     justify-content: center;
     
@@ -69,22 +65,23 @@ ul {
   border: 3px;
   
   }
-li {
+li  {
   float: left;
   background-color: #F6E3CA;
-  margin-right: 10px;
+  margin-right: 5px;
   border: #6e6b6b 2px solid;
   padding: 7px;
   
   }
   
   
-  button,
+  #reset-button,
   input {
+  
     font-family: inherit;
     font-size: 100%;
-    background: #f5daba;
-    border: 1px solid #000000;
+    background: #f4d4ae;
+    border: 2px solid #333333;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 0.5rem 1rem;
@@ -93,13 +90,15 @@ li {
   
   
   footer {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #333333;
-    align-items: end; 
-    font-weight: right;
-    
-  }
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: white;
+   border-top: 1px solid #ccc;
+   padding: 1px 1;
+   text-align: center;
+    }
   
   
     
