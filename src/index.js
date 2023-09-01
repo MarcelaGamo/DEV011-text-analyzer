@@ -9,7 +9,7 @@ const numberCount = document.querySelector('[data-testid="number-count"]');
 const numberSum = document.querySelector('[data-testid="number-sum"]');
 const tre = document.querySelector('[data-testid="average-word-lenght"]');
 console.log (tre,"prueba1");
-const resetButton = document.getElementById("reset-button");
+
 
 // al levantar la tecla me da los resultados
 
@@ -46,11 +46,16 @@ userInput.addEventListener('keyup', () => {
   numberSum.innerHTML = "Suma números:"+iCountC;
 });
 
+const textarea = document.querySelector('[name="user-input"]');
+const resetButton = document.getElementById('reset-button'); 
+resetButton.addEventListener('click',function() { //Escuchar evento para qeue cuado yo haga click me traiga la informacion
+  textarea.value="";
+  wordCount.innerHTML="Recuento caracteres";
+  characterCount.innerHTML="Recuento caracteres";
+  characterNoSpacesCount.innerHTML="Recuento total caracteres";
+  numberCount.innerHTML="Total numeros";
+  numberSum.innerHTML="Suma todos los número";
+  tre.innerHTML="longitud palabras";
+});
 
  
-
-// boton de limpiar, reestablece el contenido de res
-resetButton.addEventListener('click', () => {
-  userInput.value = '';
-
-});
