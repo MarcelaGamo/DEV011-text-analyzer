@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js" type="module"></script>
+</head>
+
+<body>
+  <img
+          src="https://img.freepik.com/vector-gratis/ilustracion-poesia-acuarela_52683-82191.jpg?w=1380&t=st=1692737719~exp=1692738319~hmac=d4a8ece892907834bc581a990b21f1ce1a593e1bc2ad1aaf4a89c624b77bc11c""
+          class="illustration"
+          alt="imagen"
+          title="imagen" >
+          
+
+  <header> <h1>ANALIZADOR DE TEXTO</h1></header>
+
+  <label for="story">Escribe un texto en el siguiente recuadro:</label>
+
+<textarea name="user-input" rows="10" cols="70" >
+</textarea>
+
+<div id= "respuesta">
+<ul class="texto">
+  <li data-testid="word-count" class= "respuesta">Total palabras: 0</li>
+  <li data-testid="character-count" class= "respuesta"> Total caracteres: 0</li> 
+  <li data-testid="character-no-spaces-count" class= "respuesta">Caracteres excluyendo espacios: 0</li>
+  <li data-testid="number-count" class= "respuesta">Total números: 0</li>
+  <li data-testid="number-sum" class= "respuesta"> Suma números: 0</li>    
+  <li data-testid="average-word-lenght" class= "respuesta">Longitud de palabras: 0</li>     
+</ul>
+</div>
+    
+      <button id="reset-button" onclick="">Limpiar métricas</button>
+
+      <footer>
+        <p> Marcela Garavito</p>
+      </footer>
+      
+      
+</body>
+
+</html>
