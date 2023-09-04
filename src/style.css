@@ -5,6 +5,7 @@
     place-items: center;
     display: grid;
     
+    
   }
 
 
@@ -23,11 +24,11 @@
     
     }
   
-  .illustration {
+  .img {
     max-width: 14%;
-    max-height: var(--image-max-width);
-    margin-top: var(--image-margin 6);
-    justify-content: center;
+    background-position: cover;
+    filter: opacity(40%);
+   
    
   }
 

@@ -2,6 +2,8 @@
 
 ## Índice
 
+! (https://www.mentesliberadas.com/wp-content/uploads/2018/04/redaccion.jpg)
+
 * [1. ¿Qué es un Analizador de texto?](#1-¿Qué-es-un-Analizador-de-texto?)
 * [2. Introducción](#2-Introducción)
 * [3. ¿Cómo Funciona?](#3-¿Cómo-Funciona?)
@@ -48,6 +50,8 @@ El analizador de textoidentificará los números presentes en el texto y mostrar
 Si el texto contiene números, lEl analizador de texto sumará todos los valores numéricos encontrados y mostrará el resultado.
 
 <strong>6. Longitud Media de las Palabras</strong>
+
+![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
 
 
 ## 4. Enlace 
