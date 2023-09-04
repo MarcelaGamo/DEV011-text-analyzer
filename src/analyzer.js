@@ -44,11 +44,11 @@ const analyzer = {
   //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
 
   getNumberSum: (text) => {
-    const numbers = text.split(' ').filter(word => !isNaN(word)); //Divide texto. y fitra cada palabra para ver si es un numero 
-    const sum = numbers.reduce((acc, curr) => acc + parseFloat(curr),0); // reduce suma todos los numeros 
-    //acc mantiene la suma parcial y curr convierte numero decimal con ayuda de parseFloat(curr)
+    const numbers = text.match(/\d+/g);
+    if (!numbers) return 0;
+    const sum = numbers.reduce((total, number) => total + parseInt(number, 10), 0);
     return sum;
-    //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
+    
   },
 }
 export default analyzer;
