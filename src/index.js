@@ -41,7 +41,7 @@ userInput.addEventListener('keyup', () => {
   numberCount.innerHTML = "Total números:"+iCountC;
 });
 userInput.addEventListener('keyup', () => {
-  const text = userInput.value; // input
+  const text = userInput.value;
   const iCountC=analyzer.getNumberSum(text);
   numberSum.innerHTML = "Suma números:"+iCountC;
 });
