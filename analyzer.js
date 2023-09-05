@@ -36,7 +36,6 @@ const analyzer = {
     if (!matches) {
       return 0;
     }
-      
     return matches.length;
     
   },
