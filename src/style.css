@@ -18,22 +18,11 @@
     font-family:monospace;
     }
 
-  .story {
-    text-align: right;
-  }
-
-  .img {
+    img {
     max-width: 12%;
-    background-position: cover;
+    background-position: cover; 
     filter: opacity(90%);
    
-  }
-
-  .box [name="user-input"]{
-
-    border: 2px solid #38302e;
-    padding: 5px;
-    margin: px;
   }
 
   label {
@@ -93,3 +82,12 @@ ul {
    padding: 1px 1;
    text-align: center;
     }
+
+.cajita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30;
+
+}
+  
